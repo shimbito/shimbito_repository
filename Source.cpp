@@ -13,5 +13,17 @@ int main()
      */
     cout << "Challenge #1" << endl;
     int arreglo[] = {0, 1, 1, 1, 2, 2};  // Empiece con este arreglo ya existente, el docente modificará este arreglo para pruebas
+    
+    for (int i = 0; i < arreglo.size(); i++)
+    {
+        int cadena = arreglo[i];
+        cout << cadena << ",";
+
+        if (cadena == cadena)
+        {
+            cout << "este numero se repite";
+        }
+    }
+
     return 0;
 }
